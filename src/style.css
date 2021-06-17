@@ -9,6 +9,12 @@ body {
   margin-bottom: 100px;
 }
 
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
 h1 {
   font-size: 96px;
 }
@@ -96,7 +102,23 @@ p {
 }
 
 @media (max-width: 576px) {
-  .picture {
-    display: none;
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
